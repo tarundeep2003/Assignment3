@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Viewport meta tag for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <!-- Title of the page -->
+  <title>To Do List</title>
+</head>
+
+<body>
+  <!-- Header section with input for new tasks -->
+  <div id="myDIV" class="header">
+    <h2 style="margin:5px">My To Do List</h2>
+    <input type="text" id="myInput" placeholder="Add your next task!">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+  
+  <!-- Container for displaying messages/alerts to the user -->
+  <div id="message-container"></div>
+  
+  <!-- Unordered list to display the tasks -->
+  <ul id="myUL">
+    <li class="checked">Going out in the evening with....</li>
+    <li class="checked">Attend lecture</li>
+    <li>Shift Tomorrow</li>
+    <li>Complete the java assignments </li>
+    <li>workout everyday!!</li>
+  </ul>
+  
+  <!-- Audio element for playing a sound when a task is added -->
+  <audio id="dingSound" src="sound/ding.mp3" autoplay="false"></audio>
+  
+  <!-- Link to external JavaScript file -->
+  <script src="js/script.js"></script>
+  
+  <!-- Footer section with group member names and IDs -->
+  <footer>
+    <p>Tarundeep Singh | 200514157</p>
+    <p>Peetambar kohli | 200518291</p>
+    <p>Tanvi Tanvi | 200520507</p>
+    <p>Vanshul Vanshul | 200514175</p>
+  </footer>
+</html>
